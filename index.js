@@ -12,7 +12,7 @@ import puppeteer from 'puppeteer';
   await page.goto('https://www.google.com');
 
   console.log('Waiting 60 seconds...');
-  await new Promise(resolve => setTimeout(resolve, 60000));
+  await new Promise(resolve => setTimeout(resolve, 3600000));
 
   console.log('Closing browser...');
   await browser.close();
