@@ -3,8 +3,8 @@ name: Puppeteer Cronjob
 on:
   push:
   schedule:
-    - cron: '*/5 * * * *'  # Every 15 minutes
-  workflow_dispatch:         # Allow manual trigger from GitHub UI
+    - cron: '*/6 * * * *' 
+  workflow_dispatch: 
 
 jobs:
   run-puppeteer:
